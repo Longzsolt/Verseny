@@ -3,7 +3,11 @@ package retek;
 public class Retek {
 
     public static void main(String[] args) {
-        System.out.println("Teszt123");
+        int x=0;
+        for(int i=0;i<10;i++){
+            x+=i;
+            System.out.println(x);
+        }
     }
     
 }
